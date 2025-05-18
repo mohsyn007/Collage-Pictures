@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Flex</title>
+   
+    <style>
+        .container{
+            display: flex;
+            gap: 20px;
+        }
+        .box{
+            background-color: slateblue;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        .container-2{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+
+        }
+        .item{
+            width: 200px;
+            height: 100px;
+            border: 2px solid skyblue;
+            background-color: aquamarine;
+        }
+        /* media query */
+        @media screen and (max-width:576px){
+            .container{
+                display: flex;
+                flex-direction: column;
+            }
+            
+        }
+    </style>
+ </head>
+ <body>
+    <h3>Flexiable Flex</h3>
+    <div class="container">
+        <div class="box">
+            <h3>First box</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis dolore repellat dolores adipisci vel, repellendus consectetur quam? Veritatis ea vero autem quae incidunt deleniti hic saepe tenetur, ipsam facilis voluptatum.
+            Atque repellendus explicabo odio sequi vero, quidem eveniet quisquam, dolores nihil aut laborum, repudiandae distinctio quibusdam porro iusto. Aperiam corporis in animi ex voluptas, architecto sed. Tempora in est et.
+            Nesciunt libero praesentium minima consequatur nobis nam accusamus laboriosam voluptatum, pariatur quaerat ipsam minus quo sequi dolorum excepturi est voluptatibus unde officiis, nulla omnis eos! Nulla iste dolorum vero quae!
+            Consequuntur, quam provident amet molestiae tempora dolore commodi nostrum cupiditate, necessitatibus accusantium earum saepe dicta. Totam ullam ratione neque ducimus corporis deserunt! Illo eum ducimus veniam voluptatibus fugit excepturi dolorum.
+            Obcaecati et animi, aliquid ad quos, consequatur fuga corrupti exercitationem magnam in natus voluptatem id rem delectus ex impedit aspernatur ullam libero dolores sapiente blanditiis odio, dicta optio. Architecto, corrupti.
+            Odio ullam minima consequuntur magni, ratione dignissimos neque eos maxime cum ducimus sed repellat eaque fuga suscipit atque labore aliquid, est harum id deserunt facilis molestias aperiam quasi sit. Dicta?
+            Hic labore magnam rem assumenda dolorem perspiciatis itaque quo aut, vel in rerum error nesciunt nobis dolores fugiat iure a. Officiis quidem voluptate maxime itaque error, fugit eligendi omnis nam.
+            Doloremque vel porro nostrum saepe voluptas. Et non ut corporis soluta voluptatem maiores rerum nihil quam laboriosam. Iure facilis, animi explicabo alias debitis corrupti fuga ut sed natus nisi consequatur!
+            Aspernatur architecto quod illo, provident reiciendis et accusamus, magni inventore molestias nesciunt sed explicabo, sapiente commodi veniam itaque ea esse cumque totam nulla iusto. Labore saepe aperiam itaque autem quisquam!
+            Quidem dicta vero earum commodi necessitatibus totam iusto labore magni minus voluptatibus. Porro culpa reprehenderit necessitatibus deleniti, eos dolor voluptatem id, quia ea quo labore illo sapiente eius cum perspiciatis.</p>
+        </div>
+        <div class="box">
+             <h3>Second box</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis dolore repellat dolores adipisci vel, repellendus consectetur quam? Veritatis ea vero autem quae incidunt deleniti hic saepe tenetur, ipsam facilis voluptatum.
+            Atque repellendus explicabo odio sequi vero, quidem eveniet quisquam, dolores nihil aut laborum, repudiandae distinctio quibusdam porro iusto. Aperiam corporis in animi ex voluptas, architecto sed. Tempora in est et.
+            Nesciunt libero praesentium minima consequatur nobis nam accusamus laboriosam voluptatum, pariatur quaerat ipsam minus quo sequi dolorum excepturi est voluptatibus unde officiis, nulla omnis eos! Nulla iste dolorum vero quae!
+            Consequuntur, quam provident amet molestiae tempora dolore commodi nostrum cupiditate, necessitatibus accusantium earum saepe dicta. Totam ullam ratione neque ducimus corporis deserunt! Illo eum ducimus veniam voluptatibus fugit excepturi dolorum.
+            Obcaecati et animi, aliquid ad quos, consequatur fuga corrupti exercitationem magnam in natus voluptatem id rem delectus ex impedit aspernatur ullam libero dolores sapiente blanditiis odio, dicta optio. Architecto, corrupti.
+            Odio ullam minima consequuntur magni, ratione dignissimos neque eos maxime cum ducimus sed repellat eaque fuga suscipit atque labore aliquid, est harum id deserunt facilis molestias aperiam quasi sit. Dicta?
+            Hic labore magnam rem assumenda dolorem perspiciatis itaque quo aut, vel in rerum error nesciunt nobis dolores fugiat iure a. Officiis quidem voluptate maxime itaque error, fugit eligendi omnis nam.
+            Doloremque vel porro nostrum saepe voluptas. Et non ut corporis soluta voluptatem maiores rerum nihil quam laboriosam. Iure facilis, animi explicabo alias debitis corrupti fuga ut sed natus nisi consequatur!
+            Aspernatur architecto quod illo, provident reiciendis et accusamus, magni inventore molestias nesciunt sed explicabo, sapiente commodi veniam itaque ea esse cumque totam nulla iusto. Labore saepe aperiam itaque autem quisquam!
+            Quidem dicta vero earum commodi necessitatibus totam iusto labore magni minus voluptatibus. Porro culpa reprehenderit necessitatibus deleniti, eos dolor voluptatem id, quia ea quo labore illo sapiente eius cum perspiciatis.</p>
+        </div>
+    </div>
+    <div class="container-2">
+        <div class="item">Item-1</div>
+        <div class="item">Item-2</div>
+        <div class="item">Item-3</div>
+        <div class="item">Item-4</div>
+        <div class="item">Item-5</div>
+        <div class="item">Item-6</div>
+        <div class="item">Item-7</div>
+        <div class="item">Item-8</div>
+        <div class="item">Item-9</div>
+        <div class="item">Item-10</div>
+    </div>
+ </body>
+ </html>
