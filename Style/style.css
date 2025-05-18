@@ -20,3 +20,14 @@ height: 50%;
    gap: 5px;
     grid-template-columns: repeat(2,1fr);
 }
+
+/* Responsive media query */
+@media screen and (max-width:576px){
+    .row{
+        flex-direction: column;
+    }
+    .square-collage{
+        grid-template-columns:1fr;
+    }
+    
+}
